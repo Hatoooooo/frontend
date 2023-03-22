@@ -1,0 +1,43 @@
+.header{
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-resaux{
+    margin-top: 20px;
+}
+
+.header .header-logo{
+    max-width: 10rem;
+    height: 100%;
+}
+
+.header .header-menu a{
+    color:black;
+
+}
+
+.header .header-logo img {
+    width: 100%;
+    height: 75px;
+    object-fit: cover;
+}
+.header .header-menu nav{
+    display: flex;
+    align-items: center;
+}
+
+.header .header-menu h2{
+    padding: 0px 10px;
+}
+
+.header .header-resaux img {
+    max-width: 100%;
+    height: 35px;
+    object-fit: cover;
+    padding: 0px 10px;
+}
